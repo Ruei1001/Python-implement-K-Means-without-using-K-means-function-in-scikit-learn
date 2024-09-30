@@ -56,15 +56,3 @@ The script runs the test() function multiple times and prints the final probabil
 Usage
 Prepare your data: Ensure that the CSV files (train_data.csv, train_label.csv, test_data.csv, test_label.csv) are in the correct format and in the same directory as the script.
 
-Run the script:
-
-python your_script.py
-Output:
-
-The script will output the value counts of the labels in the test set and display the accuracy of the classification and clustering process.
-Example Output
-
-KIRC    0.30
-BRCA    0.40
-LUAD    0.30
-Probability= [0.85, 0.83, 0.82]
